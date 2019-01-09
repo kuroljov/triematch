@@ -2,19 +2,20 @@
 <html>
 <head>
   <meta charset='utf-8' />
-  <title>triematch 2.0.1 | Documentation</title>
+  <title>triematch 2.0.2 | Documentation</title>
   <meta name='viewport' content='width=device-width,initial-scale=1'>
   <link href='assets/bass.css' type='text/css' rel='stylesheet' />
   <link href='assets/style.css' type='text/css' rel='stylesheet' />
   <link href='assets/github.css' type='text/css' rel='stylesheet' />
   <link href='assets/split.css' type='text/css' rel='stylesheet' />
+  <meta name='description' content='Fast Trie structure implementation with matching feature'>
 </head>
 <body class='documentation m0'>
     <div class='flex'>
       <div id='split-left' class='overflow-auto fs0 height-viewport-100'>
         <div class='py1 px2'>
           <h3 class='mb0 no-anchor'>triematch</h3>
-          <div class='mb1'><code>2.0.1</code></div>
+          <div class='mb1'><code>2.0.2</code></div>
           <input
             placeholder='Filter'
             id='filter-input'
@@ -78,14 +79,14 @@
             </ul>
           </div>
           <div class='mt1 h6 quiet'>
-            <a href='http://documentation.js.org/reading-documentation.html'>Need help reading this?</a>
+            <a href='https://documentation.js.org/reading-documentation.html'>Need help reading this?</a>
           </div>
         </div>
       </div>
       <div id='split-right' class='relative overflow-auto height-viewport-100'>
         
           
-            <section class='p2 mb2 clearfix bg-white minishadow'>
+          <section class='p2 mb2 clearfix bg-white minishadow'>
 
   
   <div class='clearfix'>
@@ -100,8 +101,10 @@
 
   <p>Trie class</p>
 
-
-  <div class='pre p1 fill-light mt0'>Trie</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>Trie</div>
+   
   
   
 
@@ -148,8 +151,10 @@
 
   <p>Returns the value associated to the key, or undefined if there is none</p>
 
-
-  <div class='pre p1 fill-light mt0'>get(query: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>): any</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>get(query: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>): any</div>
+   
   
   
 
@@ -218,8 +223,10 @@
 
   <p>Get all values matching this <code>query</code>. If <code>count</code> is greater than <code>0</code> then return that many results (it will increase searching in case you have thousands of elements). Will return all results by default</p>
 
-
-  <div class='pre p1 fill-light mt0'>match(query: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, count: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;any></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>match(query: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, count: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;any></div>
+   
   
   
 
@@ -299,8 +306,10 @@
 
   <p>Sets the value for the key in the Trie object. Return Map object</p>
 
-
-  <div class='pre p1 fill-light mt0'>set(key: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, value: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map">Map</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>set(key: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, value: any): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map">Map</a></div>
+   
   
   
 
@@ -389,8 +398,10 @@
 
   <p>Returns true if an element in the Map object existed and has been removed, or false if the element does not exist.</p>
 
-
-  <div class='pre p1 fill-light mt0'>delete(query: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>delete(query: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></div>
+   
   
   
 
@@ -459,8 +470,10 @@
 
   <p>Removes all key/value pairs from the Trie object</p>
 
-
-  <div class='pre p1 fill-light mt0'>clear(): void</div>
+ 
+  
+    <div class='pre p1 fill-light mt0'>clear(): void</div>
+   
   
   
 
@@ -509,7 +522,6 @@
   
 </section>
 
-          
         
       </div>
     </div>
